@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('/src/assets/fonts/KaushanScript-Regular.ttf');
+}
+
+#history{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 50px 30px 50px;
+}
+
+.history_title{
+    font-family: 'KaushanScript-Regular';
+    font-size: 3rem;
+}
+
+.history_text{
+    padding-top: 80px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    color: white;
+    font-family: 'Quicksand-regular';
+    font-size: 1.2rem;
+}
+
+.history_container{
+    display: flex;
+}
+
+.history_image{
+    display: flex;
+    flex-direction: column;
+}
+
+.history_image > img{
+    width: 90%;
+}
