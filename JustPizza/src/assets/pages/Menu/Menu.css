@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'KaushanScript-Regular';
+  src: url('/src/assets/fonts/KaushanScript-Regular.ttf');
+}
+
+#menu > h1{
+  font-family: 'KaushanScript-Regular';
+  font-size: 5rem;
+  text-align: center;
+}
+
+
+.menu_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu_container > img{
+  transform: translateX(-250px)
+}
+
+.menu_content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  color: white;
+}
+
+.menu_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  font-size: 1.2rem;
+}

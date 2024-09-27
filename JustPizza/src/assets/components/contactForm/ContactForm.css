@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family: 'QuickSand';
+  src: url('./src/assets/fonts/Quicksand-Regular.ttf');
+}
+
+.contact-container {
+    margin-top: 100px;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/grp1.png);
+    background-size: cover; /* Pour couvrir tout le conteneur */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour éviter de répéter l'image */
+    font-family: 'QuickSand', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Style du formulaire */
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.05); /* Fond gris avec opacité */
+    border: 1px solid white; /* Ligne fine blanche */
+    border-radius: 15px; /* Bords arrondis */
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: center; /* Centre le texte et les champs dans le formulaire */
+  }
+  
+  /* Style du titre */
+.contact-form h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em; /* Agrandir le titre */
+    font-weight: bold; /* Mettre en gras */
+  }
+  
+  /* Style du texte */
+  .contact-form p {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 12px; /* Réduire la taille du texte */
+  }
+  
+  /* Style des groupes de formulaire */
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Style des labels */
+  .form-group label {
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 10px; /* Espace entre le label et l'input */
+    flex: 1; /* Permet au label de prendre de l'espace */
+    text-align: left; /* Aligner le texte du label à gauche */
+  }
+
+  /* Marges spécifiques pour les champs */
+  #email_line {
+    margin-bottom: 100px; /* Espacement conséquent sous le champ email */
+  }
+  
+  #people_line {
+    margin-top: 100px; /* Espacement conséquent sous le champ people number */
+  }
+   
+  /* Style des champs de saisie */
+  .form-group input {
+    border: none; /* Supprimer les bordures */
+    border-bottom: 1px dashed white; /* Ajouter une bordure inférieure */
+    background: transparent; /* Fond transparent */
+    width: calc(100% - 150px); /* Ajuster la largeur de l'input */
+    padding: 10px;
+    color: white; /* Couleur du texte */
+    box-sizing: border-box;
+    flex: 2; /* Permet à l'input de prendre plus d'espace */
+    transition: border-bottom 0.5s ease;
+  }
+
+  .form-group input:focus,
+ .form-group input:active {
+  outline: none; /* Supprimer le contour */
+  border-bottom: 1px solid orange; /* Ajouter une bordure inférieure orange lors du focus */
+ }
+  
+  /* Style du bouton */
+  button[type="submit"] {
+    background-color: #FF8C42;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Effet de survol pour le bouton */
+  button[type="submit"]:hover {
+    background-color: #e69500;
+  }
+  
