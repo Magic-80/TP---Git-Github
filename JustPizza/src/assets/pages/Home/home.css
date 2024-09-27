@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Quickand-bold';
+    src: url('/src/assets/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Quickand-semi-bold';
+    src: url('/src/assets/fonts/Quicksand-SemiBold.ttf');
+}
+
+.home_page{
+    padding: 0px 70px 0px 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 2.5rem;
+}
+.title p{
+    width: 54%;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: 'Quickand-semi-bold';
+    line-height: 30px;
+}
