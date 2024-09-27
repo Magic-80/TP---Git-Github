@@ -14,7 +14,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="contact-container">
+    <section className="contact-container" id="contactPage">
       {/* Image elements could be added here as background or separate components */}
       <div className="contact-form">
         <h2>CONTACT</h2>
@@ -31,7 +31,7 @@ function ContactForm() {
               required
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" id="mail_line">
             <label htmlFor="email">E-Mail:</label>
             <input
               type="email"
@@ -41,7 +41,7 @@ function ContactForm() {
               required
             />
           </div>
-          <div className="form-group">
+          <div className="form-group" id="people_line">
             <label htmlFor="people">People Number:</label>
             <input
               type="number"
@@ -64,7 +64,7 @@ function ContactForm() {
           <button type="submit">Send Mail</button>
         </form>
       </div>
-    </div>
+    </section>
   );
 }
 
