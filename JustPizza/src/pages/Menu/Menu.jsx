@@ -25,7 +25,7 @@ export default function Menu() {
 
           <div className="menuDetails">
             <h1 className="menuTitle"><img src={MenuLogo} alt="Image menu " /></h1>
-            <div className="pizzaList">
+            <div className="pizzaGrid">
               <div className="pizzaItem">
                 <h2>Classic Pizza</h2>
                 <p>Pizza comes with all toppings that you desire in this section</p>
@@ -34,14 +34,20 @@ export default function Menu() {
 
               <div className="pizzaItem">
                 <h2>Surprise Pizza</h2>
-                <p>I have the random relative you have 1 chance to go in this hut</p>
+                <p>Random chance to win a pizza made by Phillipe Etchebest himself</p>
                 <span>$1999</span>
               </div>
 
               <div className="pizzaItem">
                 <h2>Pepperoni Pizza</h2>
                 <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$199</span>
+                <span>$21.99</span>
+              </div>
+
+              <div className="pizzaItem">
+                <h2>Classic Pizza</h2>
+                <p>Pizza comes with all toppings that you desire in this section</p>
+                <span>$19.99</span>
               </div>
 
               <div className="pizzaItem">
@@ -63,3 +69,6 @@ export default function Menu() {
     </>
   );
 }
+
+
+
