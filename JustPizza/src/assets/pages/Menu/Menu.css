@@ -44,8 +44,6 @@ Container for the entire menu
   
   
   .pizzaImage  {
-   
-
     transform: translateX(-80%); 
   }
   
@@ -74,17 +72,7 @@ Container for the entire menu
       ". . ."; 
     margin-left: -70%;
   }
-  
-  .pizzaItem {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 100%; */
-  }
+
   
   .pizzaItem h2 {
     color: #e9c46a;

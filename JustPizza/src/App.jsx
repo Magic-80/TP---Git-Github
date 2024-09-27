@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Menu from './pages/Menu/Menu'
+import Menu from './assets/pages/Menu/Menu'
+import History from './assets/pages/History/History'
+import Home from './assets/pages/Home/Home'
+import ContactForm from './assets/components/contactForm/ContactForm'
 import './App.css'
 
 function App() {
-
-
   return (
-    
-      <Menu />
+      <>
+        <Home></Home>
+        <History></History>
+        <Menu></Menu>
+        <ContactForm></ContactForm>
+      </>
     
   )
 }
