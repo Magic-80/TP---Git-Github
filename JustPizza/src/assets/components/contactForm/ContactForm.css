@@ -1,19 +1,15 @@
-/* Centrer le formulaire dans la page */
-
 
 @font-face {
   font-family: 'QuickSand';
-  src: url('./src/assets/fonts/Quicksand-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('./src/assets/fonts/Quicksand-Regular.ttf');
 }
 
 .contact-container {
+    margin-top: 100px;
+    padding: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #1E1E1E; /* Couleur de fond de la page */
     background-image: url(../../images/grp1.png);
     background-size: cover; /* Pour couvrir tout le conteneur */
     background-position: center; /* Pour centrer l'image */

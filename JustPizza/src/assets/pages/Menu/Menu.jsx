@@ -1,60 +1,77 @@
 import './Menu.css';
-
-import MenuLogo from './../../images/menu.png';
-import Pizza from './../../images/Pizza.png';
+import HalfPizza from './../../images/HalfPizza.png';
 
 export default function Menu() {
   return (
     <>
-      <div className="menuContainer">
-        <div className="menuContent">
-          <div className="pizzaImage">
-            <img src={Pizza} alt="A pizza picture" />
-          </div>
+        <section id='menu'> 
+          <h1> Menu </h1>
+            <div className='menu_container'>
+              <img src={HalfPizza} alt="" />
+              <div className="menu_content">
+                  <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
 
-          <div className="menuDetails">
-            <h1 className="menuTitle"><img src={MenuLogo} alt="Image menu " /></h1>
-            <div className="pizzaGrid">
-              <div className="pizzaItem">
-                <h2>Classic Pizza</h2>
-                <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$19.99</span>
-              </div>
+                  <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
 
-              <div className="pizzaItem">
-                <h2>Surprise Pizza</h2>
-                <p>Random chance to win a pizza made by Phillipe Etchebest himself</p>
-                <span>$1999</span>
-              </div>
+                   <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
 
-              <div className="pizzaItem">
-                <h2>Pepperoni Pizza</h2>
-                <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$21.99</span>
-              </div>
+                  <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
 
-              <div className="pizzaItem">
-                <h2>Classic Pizza</h2>
-                <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$19.99</span>
-              </div>
-
-              <div className="pizzaItem">
-                <h2>Classic Pizza</h2>
-                <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$19.99</span>
-              </div>
-
-              <div className="pizzaItem">
-                <h2>Classic Pizza</h2>
-                <p>Pizza comes with all toppings that you desire in this section</p>
-                <span>$19.99</span>
+                  <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
+                  <div className="menu_item">
+                    <div className='menu_item_text'>
+                      <h2>Classic Pizza</h2>
+                      <p>Pizza comes with all toppings that you desire in this section</p>
+                    </div>
+                    <div className='menu_item_price-text'>
+                        <p> 19.99 </p>
+                    </div>
+                  </div>
+                  <button className='button_home'> <a> Plus ici </a> </button>
               </div>
             </div>
-            <button className="exploreButton">Explore More</button>
-          </div>
-        </div>
-      </div>
+        </section>
+
     </>
   );
 }
