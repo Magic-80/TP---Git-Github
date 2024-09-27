@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+  --black : #151515;
+  --white : #E8E8E8;
+  --orangeText : #FF8C42;
+}
+
+@font-face {
+  font-family: 'Quicksand-regular';
+  src: url('./assets/fonts/Quicksand-Regular.ttf');
+}
+
+body{
+  background-color: var(--black);
+  font-family: 'Quicksand-regular';
+  color: var(--orangeText);
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Quickand-bold';
+    src: url('/src/assets/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Quickand-semi-bold';
+    src: url('/src/assets/fonts/Quicksand-SemiBold.ttf');
+}
+
+:root{
+    --white : #E8E8E8;
+    --orangeText : #FF8C42;
+  }
+
+.button_home{
+    cursor: pointer;
+    width: 45%;
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--orangeText);
+    font-family: 'Quickand-semi-bold';
+    font-size: 1rem;
+    box-shadow: rgba(102, 102, 102, 0.2) 0px 2px 8px 0px;
+    transition: all 0.2s ease-in;
+}
+
+.button_home > a {
+    color: var(--white);
+}
+
+.button_home:hover{
+    box-shadow: rgba(196, 195, 195, 0.2) 0px 2px 8px 0px;
+    transform: scale(1.1);
+}

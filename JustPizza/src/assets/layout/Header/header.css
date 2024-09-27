@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Quickand-bold';
+    src: url('/src/assets/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Quickand-semi-bold';
+    src: url('/src/assets/fonts/Quicksand-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('/src/assets/fonts/KaushanScript-Regular.ttf');
+}
+
+
+:root{
+    --orangeText : #FF8C42;
+}
+
+header{
+    padding: 30px 50px 30px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    animation: animationTop 0.8s ease-in-out;
+}
+
+.header-logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Quickand-semi-bold';
+}
+
+
